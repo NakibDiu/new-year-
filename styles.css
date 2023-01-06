@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style */
+header {
+    height: 808px;
+    background: url(images/banner/banner3.png);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 230px;
+    text-align: right;
+}
+header div {
+    max-width: 525px;
+}
+header h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    text-align: right;
+}
+header p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+    text-align: right;
+    padding: 28px 0;
+}
+/* main styles */
+main {
+    margin: 130px 230px;
+}
+/* failures styles */
+#failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 85px;
+}
+#failures div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#failures div h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+#failures div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#failures li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+}
+#failures i {
+    color: #16D887;
+}
+/* plans style */
+#plans {
+    margin: 130px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#plans h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+}
+#plans > div {
+    display: flex;
+    justify-content: space-between;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.plan-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-desc {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* call styles */
+#call {
+    background: url(images/watch.png), url(images/gradient1.png);
+    margin-bottom: 130px;
+    background-blend-mode: luminosity;
+    border-radius: 8px;
+}
+#call div {
+    padding: 60px;
+}
+#call h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-left {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#footer-left h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+#footer-left p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#footer-left div {
+    display: flex;
+    gap: 17px;
+}
+#footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#footer-right h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+#footer-right input {
+    padding: 22px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+.btn-secondary {
+    padding: 20px;
+    background-color: #005FAC;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-primary {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: "#005FAC";
+}
